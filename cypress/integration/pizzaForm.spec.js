@@ -1,6 +1,6 @@
 describe('UserForm inputs', () => {
     it('can navigate to the site', () => {
-        cy.visit('http://localhost:3002/')
+        cy.visit('http://localhost:3000/') //Change that line to :3000 later when its not occupied
         cy.url().should('include', 'localhost')
     })
 
